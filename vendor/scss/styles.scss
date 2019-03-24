@@ -1,0 +1,36 @@
+@import '_variables.scss';
+@import '_article-clean.scss';
+
+* {
+    //font-family: $font-body;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+.headerblog {
+    padding-top:33px;
+    padding-bottom:13px;
+    font-size:25px;
+    font-family: $font-judul !important;
+    font-weight: bold;
+    color: tcolors(header);
+}
+
+a {
+    color: $warna-link;
+    transition: 120ms ease-in;
+
+    &:hover {
+        color: $pencerah-warna-link;
+        background-color: lighten($warna-bg, 15%);
+        transition: background-color 300ms ease-out;
+        text-decoration: none;
+    }
+}
+
+.sidebar {
+    position: sticky;
+}
