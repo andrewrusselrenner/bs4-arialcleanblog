@@ -25,7 +25,7 @@ a {
 
     &:hover {
         color: $pencerah-warna-link;
-        background-color: lighten($warna-bg, 15%);
+        background-color: darken($warna-bg, 15%);
         transition: background-color 300ms ease-out;
         text-decoration: none;
     }

@@ -108,8 +108,8 @@ a {
 }
 
 a:hover {
-  color: #95d6f3;
-  background-color: white;
+  color: #126d96;
+  background-color: #d9d9d9;
   -webkit-transition: background-color 300ms ease-out;
   transition: background-color 300ms ease-out;
   text-decoration: none;

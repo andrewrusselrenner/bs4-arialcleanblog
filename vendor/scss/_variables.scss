@@ -28,7 +28,7 @@ $theme-colors: (
 
 $warna-bg           : #fff;
 $warna-link         : #31aee7;
-$pencerah-warna-link: lighten($warna-link, 22%);
+$pencerah-warna-link: darken($warna-link, 22%);
 
 // kanan 0, kebawah 8px, blurnya 12px terus nambah shadow kebawah lagi 5px blurnya 6px
 $box-shadow         : 0 8px 12px rgba(0,0,0,0.2), 0 5px 6px rgba(0,0,0,0.3);
